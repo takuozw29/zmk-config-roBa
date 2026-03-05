@@ -92,7 +92,7 @@
         FUNCTION {
             bindings = <
 &reset  &trans  &trans      &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &caps_word  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp C   &trans  &caps_word  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
 &trans  &trans  &trans      &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
 &trans  &trans  &trans      &trans  &trans  &trans      &trans   &trans                          &kp F12
             >;
