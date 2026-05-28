@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                   &kp T                                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                   &kp G        &kp LS(LG(S))               &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &kp COLON                   &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANG2  &lt 2 SPACE  &lt_to_layer_0 3 LANG1      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&mt Q ESCAPE      &kp W             &kp E         &kp R                   &kp T                                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S             &kp D         &kp F                   &kp G        &kp LS(LG(S))               &lt 6 MINUS    &kp H        &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z  &kp X             &kp C         &kp V                   &kp B        &kp COLON                   &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_GUI      &kp LEFT_CONTROL  &kp LEFT_ALT  &lt_to_layer_0 4 LANG2  &lt 2 SPACE  &lt_to_layer_0 3 LANG1      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESC     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp PLUS                             &kp F1    &kp F2    &kp F3     &kp F4  &kp F5
-&sys_reset  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp ENTER  &trans      &kp F6        &kp F7    &kp UP    &kp F8     &kp F9  &kp F10
-&trans      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp MINUS  &trans      &trans        &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp F11
-&trans      &kp NUMBER_9  &trans        &trans        &trans     &trans      &kp LEFT_GUI  &trans                                 &kp F12
+&kp ESC     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp PLUS                              &kp F1    &kp F2    &kp F3     &kp F4  &kp F5
+&sys_reset  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp ENTER  &trans      &kp F6         &kp F7    &kp UP    &kp F8     &kp F9  &kp F10
+&trans      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp MINUS  &trans      &trans         &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp F11
+&trans      &kp NUMBER_9  &trans        &trans        &trans     &trans      &kp BACKSPACE  &trans                                 &kp F12
             >;
         };
 
